@@ -19,6 +19,7 @@ img{
     --gray:#333;
 }
 body{
+    
     background-color: var(--black);
     height: 100svh;
     display: flex;
@@ -26,11 +27,12 @@ body{
     align-items: center;
 }
 div{
+    
    background-color: var(--dark-gray);
    color:  var(--white);
    max-width: 384px;
    text-align: center;
-   padding: 40px;
+   padding: 50px;
    border-radius: 12px;
 }
 ul,li{
@@ -58,6 +60,20 @@ font-size: 14px;
 line-height: 150%;
 }
 a{
+    display: block;
     color: var(--white);
     text-decoration: none;
+    background-color: var(--gray);
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700px;
+
+}
+
+a:hover{
+background-color:var(--neon-grenn) ;
+color: var(--gray);
+transition: 0.6s;
 }
